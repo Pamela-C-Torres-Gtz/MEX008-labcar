@@ -116,3 +116,47 @@
     </footer>
 </body>
 </html>
+<!--Seccion  de modales-->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bgc-green" aling="center">
+          <img class="img-circle" id="img_logo" src="assets/images/user.png" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+          </button>
+        </div>
+       
+        <div id="div-forms" class="bgc-green">
+          <form id="login-form">
+            <div class="modal-body modal-p">
+              <div id="div-login-msg">
+                <div class="form-group">
+                  <div class="input-group">
+                    <label for="uLogin" class="input-group-addon glyphicon glyphicon-user"></label>
+                    <input id="login_username" class="form-control" type="email" placeholder="Username" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="input-group">
+                    <label for="uPassword" class="input-group-addon glyphicon glyphicon-lock"></label>
+                    <input type="password" class="form-control" id="uPassword" placeholder="Password">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal-footer modal-p bgc-green"><!--mi op es que los deje con un solo div-->
+              <div>
+                <button type="submit" class="btn btn-warning btn-lg btn-block button-loging">LOGING</button>
+              </div>
+              <div>
+                <button id="login_lost_btn" type="button" class="btn btn-link color-w w-bold">Forgot Password?</button>
+                <button id="login_register_btn" type="button" class="btn btn-link color-red">Click Here</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

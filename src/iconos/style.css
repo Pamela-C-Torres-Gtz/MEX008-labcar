@@ -189,5 +189,10 @@ body{
 
 .footer-listTwo{
   text-align: 'two column';
-
 }
+
+/* inicio de medias querys para lo responsivo*/
+@media (min-width: 768px) {
+  .mobile-info{
+      display: none;
+  }
