@@ -42,5 +42,152 @@
 
 /*aqui comienza mi codigo*/
 body{
+  color:white;
+}
+/*se coloca la estructura tal y como esta nuestro esqueleto para n o perder secuencia*/
+.header {
+  background-color:white;
+}
+
+.header a {
+  text-align: right;
+  color: black;
+  text-decoration: none;
+}
+
+.hero{
+  height: 300vh;
+  background-image: url('../img/taxi.jpg');
+  background-size: 100%; /*para que cubra todo el body*/
+  background-repeat: no-repeat;
+  background-position: inherit;
+  /*background-attachment: fixed; */
+}
+
+.travel {
+  font-size: 40px;  /*tamaño de la fuente*/
   background-color: #f7b617;
+  line-height: 1.5; /*espacio entre lineas de los textos*/
+  letter-spacing: -.2px;
+ /*text-align-last: right;*/
+  width: 55%;
+  height: 25%;
+}
+
+.travel-btn {
+  font-size: 25px;
+  height: 35px;
+}
+
+.start-traveling {
+  font-size: 40px;  /*tamaño de la fuente*/
+  background-color: #f7b617;
+  line-height: 1.5; /*espacio entre lineas de los textos*/
+  letter-spacing: -.2px;
+ /*text-align-last: right;*/
+  width: 25%;
+  height: 15%;
+}
+
+.start-traveling-btn {
+  font-size: 25px;
+  height: 35px;
+}
+
+.information {
+  background-color: #f7b617;
+  height: 400px; /*ponerle alto ficjo a un elemento*/  
+  background-image: url('../img/celular.png');
+  background-size: 500px 350px;
+  background-repeat: no-repeat; 
+  background-position-x: left;
+  font-size: 20px;
+}
+
+/*.description-imageContainer {
+  width: 500px;
+  height: 100px;
+}*/
+
+.description-details {
+  width: 500px;
+  text-align: right;
+}
+
+.description-title {
+  font-size: 35px;
+}
+
+.driver{
+  height: 200vh;
+  background-image: url('../img/conduce.jpg');
+  background-size: 100%; /*para que cubra todo el body*/
+  background-repeat: no-repeat;
+  background-position: inherit;
+  /*background-attachment: fixed; */
+  line-height: 1.5; /*espacio entre lineas de los textos*/
+  letter-spacing: -.2px;
+  font-size: 30px;
+}
+
+.heDrivers-title {
+  font-size: 45px;
+}
+
+.heDrivers-btn{
+  font-size: 30px;
+  /*height: 35px;*/
+  background-color: #f7b617;
+}
+
+.rate {
+  background-color: #f7b617;
+  height: 400px;
+  line-height: 1.5; /*espacio entre lineas de los textos*/
+  letter-spacing: -.2px;
+  font-size: 30px;
+}
+
+.tariffs-titl {
+  font-size: 40px;  /*tamaño de la fuente*/
+  line-height: 1.5; /*espacio entre lineas de los textos*/
+  letter-spacing: -.2px;
+}
+
+.tariffs-imageContainer {
+  width: 500px;
+  height: 100px;
+}
+
+.tariffs-image {
+  height: 25px;
+}
+
+.box {
+  font-size: 20px;
+  height: 35px;
+}
+
+.tariffss-btn {
+  font-size: 25px;
+  height: 35px;
+}
+
+
+
+.footer{
+  background-color: #2b2b2b;
+  line-height: 1.5; /*espacio entre lineas de los textos*/
+  letter-spacing: -.2px;
+  text-decoration: none;
+}
+
+.footer div {
+  text-align: 'two column';
+  text-decoration: none;
+}
+
+.footer-listTwo{
+  text-align: 'two column';
+
 }
